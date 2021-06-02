@@ -4,7 +4,7 @@
 	let audioElement = document.querySelector("audio");
 	audioElement.load()
 	
-	audioElement.addEventListener("load", function() { 
+	audioElement.addEventListener("canplay", function() { 
   		audioElement.play(); 
 	}, true);
 </script>
